@@ -1,14 +1,43 @@
-nav{
+.nav-link {
+  padding: 6px 30px !important;
+  color: black!important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.router-link-active {
+  background-color: #FF424D !important;
+  color: white !important;
+  border-radius: 20px;
+}
+
+.navbar {
   width: 100%;
+  padding: 10px 20px;
+  background-color: white !important;
   position: fixed;
-  z-index: 1000;
-  background-color: transparent!important;
-  color: white!important;
-  border-radius: 0px!important;
+  z-index: 100000;
 }
-.navbar-nav li a{
-  color: white!important;
+
+.navbar-collapse {
+  flex-grow: 0 !important;
 }
-.navbar-brand {
-  color: white!important;
+
+.my_logo img {
+  width: 80px;
+  height: 50px;
 }
+
+.my_title {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.my_title a {
+  font-size: 32px !important;
+  font-weight: bolder;
+  color: #FF424D;
+  font-family: 'Dancing Script', cursive;
+}
+
