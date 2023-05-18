@@ -1,55 +1,66 @@
-.jumbotron{
+.jumbotron {
   background-image: url(../../assets/images/bg-main2.png);
   width: 100%;
   height: 730px;
   background-repeat: no-repeat;
-  background-size:cover;
-  color: white!important;
+  background-size: cover;
+  color: white !important;
 }
-h1{
+
+h1 {
   font-size: 55px;
   font-family: 'Playfair Display', serif;
   line-height: 70px;
   font-weight: bold;
 }
-h2{
+
+h2 {
   font-size: 35px;
   font-family: 'Playfair Display', serif;
   line-height: 70px;
   color: #002c3e;
   font-weight: bold;
 }
-.jumbotron span{
+
+.jumbotron span {
   width: 60%;
 }
-.jumbotron p{
-  font-size: 16px!important;
+
+.jumbotron p {
+  font-size: 16px !important;
   color: black;
   font-family: 'Open Sans', sans-serif;
   line-height: 40px;
 }
-.btn{
+
+.btn {
   background-color: #FF424D !important;
   border: none;
   font-size: 18px;
 }
-.blog h1{
+
+.blog h1 {
   text-align: center;
   color: #FF424D;
 }
-.example-card{
+
+.example-card {
   height: 540px;
 }
-.example-card img{
+
+.example-card img {
   width: 100%;
   height: 300px;
 }
-mat-card-title{
+
+mat-card-title {
   color: #FF424D;
 }
-mat-card-subtitle{
- font-style: italic;
+
+mat-card-subtitle {
+  font-style: italic;
 }
+
 .example-card {
   max-width: 400px;
 }
